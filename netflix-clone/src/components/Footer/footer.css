@@ -1,0 +1,74 @@
+.footer_outer_container {
+    background-color: #111;
+    color: grey;
+    display: flex;
+    flex-direction: column; /* Ensures vertical alignment for footer sections */
+    align-items: center;    /* Centers the inner content horizontally */
+    padding: 20px 0;        /* Adds spacing around the footer content */
+}
+
+.footer_inner_container {
+    width: 60%;
+    max-width: 1200px; /* Restricts the width for better responsiveness */
+    margin: 0 auto;    /* Centers the inner container horizontally */
+}
+
+.footer_icons {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 20px; /* Adds spacing between icons and other sections */
+}
+
+.footer_data {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensures proper layout on smaller screens */
+    width: 100%;     /* Matches the width of the inner container */
+    margin-bottom: 20px; /* Adds spacing below the links */
+}
+
+.footer_data ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto; /* Adjusts height dynamically based on content */
+    margin: 0 10px; /* Adds spacing between link groups */
+    padding: 0; /* Removes default padding from the <ul> */
+}
+
+.footer_data ul li {
+    cursor: pointer;
+    transition: color 0.3s ease; /* Adds a hover effect */
+}
+
+.footer_data ul li:hover {
+    color: #fff; /* Highlights the link on hover */
+}
+
+.service_code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    width: fit-content; /* Adapts the width to the text */
+    padding: 5px 10px; /* Adds padding inside the element */
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff; 
+}
+
+.service_code:hover {
+    background-color: grey; /* Optional: Adds hover effect for better interactivity */
+    color: #111;
+} 
+
+.copy_write {
+    font-size: 12px;
+    text-align: center; /* Ensures text is centered */
+    margin-bottom: 10px;
+    color: grey;
+}
