@@ -7,11 +7,13 @@ const Home = () => {
   return (
     <>
       <Header />
-      {/* You can add main content for the Home page here */}
+      
       <Footer />
     </>
   );
 };
 
 export default Home;
+
+
 
