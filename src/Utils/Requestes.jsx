@@ -1,5 +1,5 @@
 // Use import.meta.env for Vite or process.env for Create React App
-const Api_key = import.meta.env.VITE_API_KEY;
+const Api_key = import.meta.env.VITE_API_KEY
 
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${Api_key}&language=en-US`,

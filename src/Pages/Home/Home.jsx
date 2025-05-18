@@ -1,14 +1,22 @@
 import React from 'react'
 import Header  from '../../Components/Header/Header'
+import Banner  from '../../Components/Banner/Banner'
+import RowList  from '../../Components/Rows/RowList'
 import Footer  from '../../Components/Footer/Footer'
-// import Banner from '../../Components/Banner/Banner'
 
-function Home() {
+//  import './Home.css'
+
+
+
+
+const Home =() =>{
   return (
     <>
     <Header/>
-     <Footer/>
-    {/* <Banner/>  */}
+    <Banner/> 
+    <RowList/>    
+    <Footer/>
+    
     
     </>
     
